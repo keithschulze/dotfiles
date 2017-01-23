@@ -1,6 +1,7 @@
 Plug 'joshdick/onedark.vim'
 Plug 'mhartington/oceanic-next'
 Plug 'trevordmiller/nova-vim'
+Plug 'lifepillar/vim-solarized8'
 
 syntax enable
 set background=dark
@@ -21,6 +22,7 @@ if (has("termguicolors"))
 endif
 
 " let g:onedark_termcolors=16
-autocmd VimEnter * colorscheme nova
+autocmd VimEnter * colorscheme solarized8_dark
+" autocmd VimEnter * colorscheme nova
 " autocmd VimEnter * colorscheme onedark
 " autocmd VimEnter * colorscheme OceanicNext
