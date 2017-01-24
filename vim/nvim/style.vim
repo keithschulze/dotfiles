@@ -22,7 +22,7 @@ if (has("termguicolors"))
 endif
 
 " let g:onedark_termcolors=16
-autocmd VimEnter * colorscheme solarized8_dark
+" autocmd VimEnter * colorscheme solarized8_dark
 " autocmd VimEnter * colorscheme nova
 " autocmd VimEnter * colorscheme onedark
-" autocmd VimEnter * colorscheme OceanicNext
+autocmd VimEnter * colorscheme OceanicNext

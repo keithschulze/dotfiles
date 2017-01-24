@@ -44,8 +44,8 @@ filetype on
 
 autocmd FileType * setlocal formatoptions-=r formatoptions-=o
 
-let g:python_host_prog = '/Users/skeith/.virtualenvs/neovimp2/bin/python'
-let g:python3_host_prog = '/Users/skeith/.virtualenvs/neovimp3/bin/python'
+let g:python_host_prog = '/Users/keithschulze/miniconda3/envs/neovimp2/bin/python'
+let g:python3_host_prog = '/Users/keithschulze/miniconda3/bin/python'
 let g:AutoPairsMapCh = 0
 let g:deoplete#enable_at_startup = 1
 " let g:syntastic_mode_map = { 'passive_filetypes': ["java"] }
