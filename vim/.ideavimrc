@@ -1,0 +1,17 @@
+:let mapleader = "\<Space>"
+
+" use <C>hjkl to switch between splits
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" also space hjkl
+nnoremap <Leader>h <C-w>h<CR>
+nnoremap <Leader>l <C-w>l<CR>
+nnoremap <Leader>j <C-w>j<CR>
+nnoremap <Leader>k <C-w>k<CR>
+
+" remao ESC to something easier
+imap fd <esc>
+vno v <esc>

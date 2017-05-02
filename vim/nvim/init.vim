@@ -18,7 +18,6 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
-Plug 'junegunn/goyo.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
 
 Plug 'powerline/powerline'
@@ -48,7 +47,7 @@ let g:python_host_prog = '/Users/keithschulze/miniconda3/envs/neovimp2/bin/pytho
 let g:python3_host_prog = '/Users/keithschulze/miniconda3/bin/python'
 let g:AutoPairsMapCh = 0
 let g:deoplete#enable_at_startup = 1
-" let g:syntastic_mode_map = { 'passive_filetypes': ["java"] }
+let g:syntastic_mode_map = { 'passive_filetypes': ['java', 'scala'] }
 
 " Remove whitespaces on save
 fun! <SID>StripTrailingWhitespaces()
