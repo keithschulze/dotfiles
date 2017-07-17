@@ -1,8 +1,6 @@
 Plug 'joshdick/onedark.vim'
-Plug 'mhartington/oceanic-next'
 Plug 'trevordmiller/nova-vim'
-Plug 'lifepillar/vim-solarized8'
-Plug 'liuchengxu/space-vim-dark'
+Plug 'tyrannicaltoucan/vim-quantum'
 
 syntax enable
 set background=dark
@@ -30,13 +28,11 @@ endif
 " if (has("nvim"))
 "   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " endif
-" if (has("termguicolors"))
-"   set termguicolors
-" endif
+if (has("termguicolors"))
+  set termguicolors
+endif
 
-let g:onedark_termcolors=16
-" autocmd VimEnter * colorscheme solarized8_dark
+" let g:onedark_termcolors=16
 " autocmd VimEnter * colorscheme nova
 autocmd VimEnter * colorscheme onedark
-" autocmd VimEnter * colorscheme OceanicNext
-" autocmd VimEnter * colorscheme space-vim-dark
+" autocmd VimEnter * colorscheme quantum
