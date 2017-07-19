@@ -1,0 +1,86 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "vim.easymotion": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["f", "d"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "h"],
+            "after": ["<C-w>", "h"]
+        },
+        {
+            "before": ["leader", "l"],
+            "after": ["<C-w>", "l"]
+        },
+        {
+            "before": ["leader", "w", "v"],
+            "after": ["<C-w>", "v"]
+        },
+        {
+            "before": ["leader", "p", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.toggleSidebarVisibility",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "b", "d"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "f", "f"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "b", "b"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpen",
+                    "args": ["edt "]
+                }
+            ]
+        },
+        {
+            "before": ["leader", "t", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.toggleTerminal",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "editor.fontFamily": "Monoid, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.minimap.enabled": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "nvim",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.renderWhitespace": "none",
+    "editor.wordWrap": "wordWrapColumn",
+    "workbench.editor.enablePreviewFromQuickOpen": false
+}
