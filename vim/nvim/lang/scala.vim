@@ -8,7 +8,7 @@ Plug 'derekwyatt/vim-scala'
 " let ensime_server_v2=1
 "
 " autocmd BufWritePost *.scala :EnTypeCheck
-" autocmd BufNewFile,BufRead *.sc set syntax=scala
+autocmd BufNewFile,BufRead *.sc set syntax=scala
 "
 " au FileType scala,java nnoremap <Leader>et :EnType<CR>
 " au FileType scala,java nnoremap <Leader>ec :EnTypeCheck<CR>
