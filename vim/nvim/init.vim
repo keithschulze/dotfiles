@@ -74,4 +74,5 @@ source ~/.dotfiles/vim/nvim/lang/r.vim
 source ~/.dotfiles/vim/nvim/lang/python.vim
 source ~/.dotfiles/vim/nvim/lang/markdown.vim
 source ~/.dotfiles/vim/nvim/lang/java.vim
+source ~/.dotfiles/vim/nvim/lang/latex.vim
 call plug#end()
