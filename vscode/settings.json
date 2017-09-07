@@ -79,8 +79,9 @@
     "vim.disableAnnoyingNeovimMessage": true,
     "vim.enableNeovim": true,
     "vim.neovimPath": "nvim",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Atom One Light",
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "wordWrapColumn",
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "files.trimTrailingWhitespace": true
 }
