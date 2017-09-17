@@ -1,11 +1,10 @@
 Plug 'joshdick/onedark.vim'
 Plug 'trevordmiller/nova-vim'
-Plug 'tyrannicaltoucan/vim-quantum'
+Plug 'rakr/vim-one'
 
 syntax enable
 set background=dark
 set guifont=Monoid:h13
-
 
 " Indent guides
 let g:indent_guides_start_level = 2
@@ -23,16 +22,13 @@ if (!has("nvim"))
   endif
 endif
 
-" autocmd BufRead * RainbowParentheses
 
-" if (has("nvim"))
-"   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-" endif
-if (has("termguicolors"))
-  set termguicolors
+if (empty($TMUX))
+  if (has("termguicolors"))
+    set termguicolors
+  endif
 endif
 
 " let g:onedark_termcolors=16
-" autocmd VimEnter * colorscheme nova
-autocmd VimEnter * colorscheme onedark
-" autocmd VimEnter * colorscheme quantum
+" autocmd VimEnter * colorscheme onedark
+autocmd VimEnter * colorscheme one
