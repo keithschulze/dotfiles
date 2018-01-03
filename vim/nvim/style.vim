@@ -1,10 +1,10 @@
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
+Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
 
 syntax enable
 set background=dark
-set guifont=Monoid:h13
 
 " Indent guides
 let g:indent_guides_start_level = 2
@@ -32,3 +32,5 @@ endif
 " let g:onedark_termcolors=16
 " autocmd VimEnter * colorscheme onedark
 autocmd VimEnter * colorscheme one
+" autocmd VimEnter * colorscheme quantum
+autocmd VimEnter * AirlineRefresh
