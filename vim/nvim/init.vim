@@ -32,7 +32,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'qpkorr/vim-bufkill'
 
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
-Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 
 if !has('nvim')
   Plug 'tpope/vim-sensible'
@@ -47,7 +47,7 @@ let g:python_host_prog = '/Users/keithschulze/miniconda3/envs/neovimp2/bin/pytho
 let g:python3_host_prog = '/Users/keithschulze/miniconda3/bin/python'
 let g:AutoPairsMapCh = 0
 let g:deoplete#enable_at_startup = 1
-let g:syntastic_mode_map = { 'passive_filetypes': ['java', 'scala'] }
+" let g:syntastic_mode_map = { 'passive_filetypes': ['java', 'scala'] }
 
 " Remove whitespaces on save
 fun! <SID>StripTrailingWhitespaces()
@@ -75,4 +75,5 @@ source ~/.dotfiles/vim/nvim/lang/python.vim
 source ~/.dotfiles/vim/nvim/lang/markdown.vim
 source ~/.dotfiles/vim/nvim/lang/java.vim
 source ~/.dotfiles/vim/nvim/lang/latex.vim
+source ~/.dotfiles/vim/nvim/lang/haskell.vim
 call plug#end()
