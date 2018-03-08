@@ -1,7 +1,6 @@
-" Plug 'joshdick/onedark.vim'
-Plug 'tyrannicaltoucan/vim-quantum'
 Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
+Plug 'arcticicestudio/nord-vim'
 
 syntax enable
 set background=dark
@@ -22,15 +21,19 @@ if (!has("nvim"))
   endif
 endif
 
+" if theme supports true colour
+" if (empty($TMUX))
+"   if (has("termguicolors"))
+"     set termguicolors
+"   endif
+" endif
 
-if (empty($TMUX))
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
+" Nord options
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+autocmd VimEnter * colorscheme nord
 
 " let g:onedark_termcolors=16
 " autocmd VimEnter * colorscheme onedark
-autocmd VimEnter * colorscheme one
-" autocmd VimEnter * colorscheme quantum
+" autocmd VimEnter * colorscheme one
 autocmd VimEnter * AirlineRefresh
