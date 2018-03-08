@@ -8,6 +8,7 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-classpath'
+Plug 'tpope/vim-commentary'
 
 Plug 'junegunn/vim-pseudocl'
 Plug 'junegunn/vim-oblique'
@@ -76,4 +77,8 @@ source ~/.dotfiles/vim/nvim/lang/markdown.vim
 source ~/.dotfiles/vim/nvim/lang/java.vim
 source ~/.dotfiles/vim/nvim/lang/latex.vim
 source ~/.dotfiles/vim/nvim/lang/haskell.vim
+
+" Enable project-specific settings
+set exrc
+set secure
 call plug#end()
