@@ -21,7 +21,7 @@ set list                          " show invisible characters
 set showmatch                     " show matching brackets
 set relativenumber                " use relative line numbers
 set number                        " except for the current line - absolute number there
-set mouse-=a
+set mouse=a
 set mousehide                     " hide mouse when typing
 set foldenable                    " enable code folding
 set history=1000
