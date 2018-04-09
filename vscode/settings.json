@@ -72,16 +72,24 @@
         }
     ],
     "vim.leader": "<space>",
-    "editor.fontFamily": "Monoid, Menlo, 'Courier New', monospace",
-    "editor.fontSize": 12,
+    "editor.fontFamily": "IBM Plex Mono, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 13,
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.minimap.enabled": false,
-    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.rulers": [
+        80
+    ],
     "vim.enableNeovim": true,
     "vim.neovimPath": "nvim",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Nord",
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "wordWrapColumn",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "python.venvPath": "/Users/keithschulze/miniconda3/envs",
+    "languageServerHaskell.hlintOn": true,
+    "window.restoreWindows": "none",
+    "files.associations": {
+        "*.sc": "scala"
+    }
 }

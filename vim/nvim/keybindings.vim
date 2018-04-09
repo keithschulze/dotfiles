@@ -92,5 +92,10 @@ nnoremap <leader>gc :Gcommit<CR>
 nnoremap <leader>gp :Gpush<CR>
 nnoremap <leader>gl :Commits<CR>
 
+" LanguageClient
+nnoremap <silent> <leader>lk :call LanguageClient_textDocument_hover()<CR>
+nnoremap <silent> <leader>gd :call LanguageClient_textDocument_definition()<CR>
+nnoremap <silent> <leader>lr :call LanguageClient_textDocument_rename()<CR>
+
 " mode keybindings are inside each langs file
 

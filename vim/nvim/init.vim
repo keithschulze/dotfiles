@@ -20,6 +20,10 @@ Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
 
 Plug 'powerline/powerline'
 
@@ -50,6 +54,11 @@ let g:AutoPairsMapCh = 0
 let g:deoplete#enable_at_startup = 1
 let NERDTreeIgnore = ['\.pyc$']
 " let g:syntastic_mode_map = { 'passive_filetypes': ['java', 'scala'] }
+
+set hidden
+let g:LanguageClient_serverCommands = {
+    \ 'haskell': ['hie', '--lsp']
+    \ }
 
 " Remove whitespaces on save
 fun! <SID>StripTrailingWhitespaces()
