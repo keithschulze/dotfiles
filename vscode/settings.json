@@ -72,8 +72,8 @@
         }
     ],
     "vim.leader": "<space>",
-    "editor.fontFamily": "IBM Plex Mono, Menlo, 'Courier New', monospace",
-    "editor.fontSize": 13,
+    "editor.fontFamily": "Monoid, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 12,
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.minimap.enabled": false,
     "editor.rulers": [
@@ -81,7 +81,7 @@
     ],
     "vim.enableNeovim": true,
     "vim.neovimPath": "nvim",
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Atom One Dark",
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "wordWrapColumn",
     "workbench.editor.enablePreviewFromQuickOpen": false,
