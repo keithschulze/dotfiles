@@ -91,5 +91,14 @@
     "window.restoreWindows": "none",
     "files.associations": {
         "*.sc": "scala"
-    }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+    "go.useLanguageServer": true
 }

@@ -1,3 +1,4 @@
+Qwerp-Derp.vscode-coconut
 akamud.vscode-theme-onedark
 akamud.vscode-theme-onelight
 alanz.vscode-hie-server
@@ -9,6 +10,7 @@ itryapitsin.ScalaSnippets
 justusadam.language-haskell
 lightbend.vscode-sbt-scala
 ms-python.python
+ms-vscode.Go
 nwolverson.language-purescript
 redhat.java
 sallar.vscode-duotone-dark
