@@ -35,6 +35,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'airblade/vim-rooter'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'qpkorr/vim-bufkill'
+Plug 'wsdjeg/FlyGrep.vim'
 
 Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 Plug 'w0rp/ale'
