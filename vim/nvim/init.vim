@@ -58,7 +58,8 @@ let NERDTreeIgnore = ['\.pyc$']
 
 set hidden
 let g:LanguageClient_serverCommands = {
-    \ 'haskell': ['hie', '--lsp']
+    \ 'haskell': ['hie', '--lsp'],
+    \ 'go': ['go-langserver']
     \ }
 
 " Remove whitespaces on save
@@ -88,6 +89,7 @@ source ~/.dotfiles/vim/nvim/lang/markdown.vim
 source ~/.dotfiles/vim/nvim/lang/java.vim
 source ~/.dotfiles/vim/nvim/lang/latex.vim
 source ~/.dotfiles/vim/nvim/lang/haskell.vim
+source ~/.dotfiles/vim/nvim/lang/go.vim
 
 " Enable project-specific settings
 set exrc
