@@ -3,7 +3,6 @@ Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'
 
 syntax enable
-set background=dark
 
 " Indent guides
 let g:indent_guides_start_level = 2
@@ -22,14 +21,13 @@ if (!has("nvim"))
 endif
 
 " Nord options
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-let g:nord_comment_brightness = 12
-autocmd VimEnter * colorscheme nord
+" let g:nord_italic = 1
+" let g:nord_italic_comments = 1
+" let g:nord_comment_brightness = 12
+" autocmd VimEnter * colorscheme nord
 
-" let g:onedark_termcolors=16
-" autocmd VimEnter * colorscheme onedark
-" autocmd VimEnter * colorscheme one
+let g:one_allow_italics = 1
+autocmd VimEnter * colorscheme one
 autocmd VimEnter * AirlineRefresh
 
 
@@ -40,3 +38,4 @@ if (empty($TMUX))
   endif
 endif
 
+set background=dark
