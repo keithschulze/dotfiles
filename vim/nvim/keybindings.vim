@@ -97,5 +97,7 @@ nnoremap <silent> <leader>lk :call LanguageClient_textDocument_hover()<CR>
 nnoremap <silent> <leader>gd :call LanguageClient_textDocument_definition()<CR>
 nnoremap <silent> <leader>lr :call LanguageClient_textDocument_rename()<CR>
 
-" mode keybindings are inside each langs file
+" FlyGrep
+nnoremap <leader>s/ :FlyGrep<cr>
 
+" mode keybindings are inside each langs file
