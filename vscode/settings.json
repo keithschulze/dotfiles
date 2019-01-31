@@ -72,8 +72,8 @@
         }
     ],
     "vim.leader": "<space>",
-    "editor.fontFamily": "Monoid, Menlo, 'Courier New', monospace",
-    "editor.fontSize": 12,
+    "editor.fontFamily": "'IBM Plex Mono', Monoid, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 13,
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.minimap.enabled": false,
     "editor.rulers": [
@@ -81,9 +81,8 @@
     ],
     "vim.enableNeovim": true,
     "vim.neovimPath": "nvim",
-    "workbench.colorTheme": "Atom One Dark",
+    "workbench.colorTheme": "Nord",
     "editor.renderWhitespace": "none",
-    "editor.wordWrap": "wordWrapColumn",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "files.trimTrailingWhitespace": true,
     "python.venvPath": "/Users/keithschulze/miniconda3/envs",
@@ -101,5 +100,10 @@
         "**/*.pyc": true
     },
     "go.useLanguageServer": true,
-    "editor.renderControlCharacters": false
+    "editor.renderControlCharacters": false,
+    "terminal.integrated.fontSize": 13,
+    "markdown.preview.fontSize": 13,
+    "vim.easymotionMarkerFontSize": "13",
+    "rust-client.updateOnStartup": true,
+    "editor.formatOnSave": true
 }

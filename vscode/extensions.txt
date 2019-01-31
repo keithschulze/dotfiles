@@ -3,8 +3,10 @@ akamud.vscode-theme-onedark
 akamud.vscode-theme-onelight
 alanz.vscode-hie-server
 arcticicestudio.nord-visual-studio-code
+DavidAnson.vscode-markdownlint
 deerawan.vscode-dash
 donjayamanne.jupyter
+itryapitsin.Sbt
 itryapitsin.Scala
 itryapitsin.ScalaSnippets
 justusadam.language-haskell
@@ -13,8 +15,10 @@ ms-python.python
 ms-vscode.Go
 nwolverson.language-purescript
 redhat.java
+rust-lang.rust
 sallar.vscode-duotone-dark
 vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
 vscjava.vscode-java-pack
 vscjava.vscode-java-test
 vscjava.vscode-maven
