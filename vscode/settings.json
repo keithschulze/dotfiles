@@ -3,25 +3,71 @@
     "vim.easymotion": true,
     "vim.insertModeKeyBindings": [
         {
-            "before": ["f", "d"],
-            "after": ["<Esc>"]
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-            "before": ["leader", "h"],
-            "after": ["<C-w>", "h"]
+            "before": [
+                "leader",
+                "h"
+            ],
+            "after": [
+                "<C-w>",
+                "h"
+            ]
         },
         {
-            "before": ["leader", "l"],
-            "after": ["<C-w>", "l"]
+            "before": [
+                "<C-l>"
+            ],
+            "after": [
+                "<C-w>",
+                "l"
+            ]
         },
         {
-            "before": ["leader", "w", "v"],
-            "after": ["<C-w>", "v"]
+            "before": [
+                "<C-h>"
+            ],
+            "after": [
+                "<C-w>",
+                "h"
+            ]
         },
         {
-            "before": ["leader", "p", "t"],
+            "before": [
+                "leader",
+                "l"
+            ],
+            "after": [
+                "<C-w>",
+                "l"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w",
+                "v"
+            ],
+            "after": [
+                "<C-w>",
+                "v"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p",
+                "t"
+            ],
             "after": [],
             "commands": [
                 {
@@ -31,7 +77,11 @@
             ]
         },
         {
-            "before": ["leader", "b", "d"],
+            "before": [
+                "leader",
+                "b",
+                "d"
+            ],
             "after": [],
             "commands": [
                 {
@@ -41,7 +91,11 @@
             ]
         },
         {
-            "before": ["leader", "f", "f"],
+            "before": [
+                "leader",
+                "f",
+                "f"
+            ],
             "after": [],
             "commands": [
                 {
@@ -51,17 +105,27 @@
             ]
         },
         {
-            "before": ["leader", "b", "b"],
+            "before": [
+                "leader",
+                "b",
+                "b"
+            ],
             "after": [],
             "commands": [
                 {
                     "command": "workbench.action.quickOpen",
-                    "args": ["edt "]
+                    "args": [
+                        "edt "
+                    ]
                 }
             ]
         },
         {
-            "before": ["leader", "t", "t"],
+            "before": [
+                "leader",
+                "t",
+                "t"
+            ],
             "after": [],
             "commands": [
                 {
@@ -80,7 +144,12 @@
         80
     ],
     "vim.enableNeovim": true,
+    "vim.textwidth": 80,
     "vim.neovimPath": "nvim",
+    "vim.substituteGlobalFlag": true,
+    "vim.sneak": true,
+    "vim.useSystemClipboard": true,
+    "vim.overrideCopy": true,
     "workbench.colorTheme": "Nord",
     "editor.renderWhitespace": "none",
     "workbench.editor.enablePreviewFromQuickOpen": false,
@@ -105,5 +174,6 @@
     "markdown.preview.fontSize": 13,
     "vim.easymotionMarkerFontSize": "13",
     "rust-client.updateOnStartup": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": true
 }
