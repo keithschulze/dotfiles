@@ -8,4 +8,4 @@ let g:vim_markdown_math = 1
 let g:goyo_width = 80
 
 autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown setfiletype markdown
-autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown set spell spelllang=en_gb
+autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown set spell spelllang=en_au
