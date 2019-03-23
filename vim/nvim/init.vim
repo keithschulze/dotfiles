@@ -60,7 +60,13 @@ set hidden
 let g:LanguageClient_serverCommands = {
     \ 'haskell': ['hie', '--lsp'],
     \ 'go': ['go-langserver'],
-    \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls']
+    \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
+    \ 'elixir': ['~/Development/github/elixir-ls/release/language_server.sh'],
+    \ 'reason': ['~/.bin/reason-rls']
+    \ }
+
+let g:LanguageClient_rootMarkers = {
+    \ 'elixir': ['mix.exs'],
     \ }
 
 " Remove whitespaces on save
@@ -90,6 +96,8 @@ source ~/.dotfiles/vim/nvim/lang/markdown.vim
 source ~/.dotfiles/vim/nvim/lang/java.vim
 source ~/.dotfiles/vim/nvim/lang/latex.vim
 source ~/.dotfiles/vim/nvim/lang/haskell.vim
+source ~/.dotfiles/vim/nvim/lang/elixir.vim
+source ~/.dotfiles/vim/nvim/lang/reasonml.vim
 " source ~/.dotfiles/vim/nvim/lang/go.vim
 
 " Enable project-specific settings

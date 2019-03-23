@@ -175,5 +175,7 @@
     "vim.easymotionMarkerFontSize": "13",
     "rust-client.updateOnStartup": true,
     "editor.formatOnSave": true,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
