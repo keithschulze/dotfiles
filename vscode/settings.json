@@ -166,7 +166,11 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/*.pyc": true
+        "**/*.pyc": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
     },
     "go.useLanguageServer": true,
     "editor.renderControlCharacters": false,
@@ -175,5 +179,8 @@
     "vim.easymotionMarkerFontSize": "13",
     "rust-client.updateOnStartup": true,
     "editor.formatOnSave": true,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false
 }
