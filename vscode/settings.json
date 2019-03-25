@@ -154,7 +154,7 @@
     "editor.renderWhitespace": "none",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "files.trimTrailingWhitespace": true,
-    "python.venvPath": "/Users/keithschulze/miniconda3/envs",
+    "python.venvPath": "/usr/local/miniconda3/envs",
     "languageServerHaskell.hlintOn": true,
     "window.restoreWindows": "none",
     "files.associations": {
