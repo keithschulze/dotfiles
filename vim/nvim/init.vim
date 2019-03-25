@@ -63,6 +63,12 @@ let g:LanguageClient_serverCommands = {
     \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
     \ 'typescript': ['/usr/local/bin/javascript-typescript-stdio'],
     \ 'purescript': ['purescript-language-server', '--stdio']
+    \ 'elixir': ['~/Development/github/elixir-ls/release/language_server.sh'],
+    \ 'reason': ['~/.bin/reason-rls']
+    \ }
+
+let g:LanguageClient_rootMarkers = {
+    \ 'elixir': ['mix.exs'],
     \ }
 
 " Remove whitespaces on save
@@ -94,6 +100,8 @@ source ~/.dotfiles/vim/nvim/lang/latex.vim
 source ~/.dotfiles/vim/nvim/lang/haskell.vim
 source ~/.dotfiles/vim/nvim/lang/typescript.vim
 source ~/.dotfiles/vim/nvim/lang/purescript.vim
+source ~/.dotfiles/vim/nvim/lang/elixir.vim
+source ~/.dotfiles/vim/nvim/lang/reasonml.vim
 " source ~/.dotfiles/vim/nvim/lang/go.vim
 
 " Enable project-specific settings
