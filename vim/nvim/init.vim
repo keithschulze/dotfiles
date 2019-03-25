@@ -62,7 +62,7 @@ let g:LanguageClient_serverCommands = {
     \ 'go': ['go-langserver'],
     \ 'rust': ['~/.cargo/bin/rustup', 'run', 'stable', 'rls'],
     \ 'typescript': ['/usr/local/bin/javascript-typescript-stdio'],
-    \ 'purescript': ['purescript-language-server', '--stdio']
+    \ 'purescript': ['purescript-language-server', '--stdio'],
     \ 'elixir': ['~/Development/github/elixir-ls/release/language_server.sh'],
     \ 'reason': ['~/.bin/reason-rls']
     \ }
