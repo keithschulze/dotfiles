@@ -1,7 +1,6 @@
 Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'
-Plug 'AlessandroYorba/Sierra'
 
 syntax enable
 
@@ -21,15 +20,15 @@ if (!has("nvim"))
   endif
 endif
 
-" Sierra
-" autocmd VimEnter * colorscheme sierra
 
 " Nord options
-let g:nord_italic = 1
-let g:nord_italic_comments = 1
-let g:nord_underline = 1
-let g:nord_comment_brightness = 20
-autocmd VimEnter * colorscheme nord
+" let g:nord_italic = 1
+" let g:nord_italic_comments = 1
+" let g:nord_underline = 1
+" autocmd VimEnter * colorscheme nord
+
+" Nova theme
+autocmd VimEnter * colorscheme nova
 
 " let g:one_allow_italics = 1
 " autocmd VimEnter * colorscheme one
