@@ -30,7 +30,7 @@ endif
 " Nova theme
 autocmd VimEnter * colorscheme nova
 
-highlight CursorLine ctermfg=black
+autocmd VimEnter * highlight CursorLine ctermfg=black
 
 " let g:one_allow_italics = 1
 " autocmd VimEnter * colorscheme one
