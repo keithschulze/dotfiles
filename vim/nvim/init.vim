@@ -89,6 +89,7 @@ source ~/.dotfiles/vim/nvim/plugins/airline.vim
 source ~/.dotfiles/vim/nvim/plugins/ctrlp.vim
 source ~/.dotfiles/vim/nvim/plugins/terminal.vim
 source ~/.dotfiles/vim/nvim/plugins/session.vim
+source ~/.dotfiles/vim/nvim/plugins/wiki.vim
 
 source ~/.dotfiles/vim/nvim/lang/scala.vim
 source ~/.dotfiles/vim/nvim/lang/clojure.vim
