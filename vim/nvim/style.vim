@@ -21,6 +21,14 @@ if (!has("nvim"))
   endif
 endif
 
+"if theme supports true colour
+if (empty($TMUX))
+  if (has("termguicolors"))
+    set termguicolors
+  endif
+endif
+
+set background=dark
 
 " Nord options
 " let g:nord_italic = 1
@@ -40,11 +48,3 @@ autocmd VimEnter * colorscheme monotone
 " autocmd VimEnter * AirlineRefresh
 
 
-"if theme supports true colour
-if (empty($TMUX))
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
-
-set background=dark
