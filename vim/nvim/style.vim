@@ -1,6 +1,7 @@
 Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'
+Plug 'Lokaltog/vim-monotone'
 
 syntax enable
 
@@ -28,7 +29,10 @@ endif
 " autocmd VimEnter * colorscheme nord
 
 " Nova theme
-autocmd VimEnter * colorscheme nova
+" autocmd VimEnter * colorscheme nova
+
+" vim-monotone
+autocmd VimEnter * colorscheme monotone
 
 autocmd VimEnter * highlight CursorLine ctermfg=black
 

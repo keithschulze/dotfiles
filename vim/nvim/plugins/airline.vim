@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline'
 " let g:airline_theme='one'
 " let g:airline_theme='nord'
 let g:airline_theme='nova'
+" let g:airline_theme='monotone'
 
 let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#tabline#fnamemod = ':t'
