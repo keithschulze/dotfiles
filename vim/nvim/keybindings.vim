@@ -93,9 +93,10 @@ nnoremap <leader>gp :Gpush<CR>
 nnoremap <leader>gl :Commits<CR>
 
 " LanguageClient
-nnoremap <silent> <leader>lk :call LanguageClient_textDocument_hover()<CR>
-nnoremap <silent> <leader>gd :call LanguageClient_textDocument_definition()<CR>
-nnoremap <silent> <leader>lr :call LanguageClient_textDocument_rename()<CR>
+nnoremap <silent> <leader>lm :call LanguageClient_contextMenu()<CR>
+nnoremap <silent> <leader>lk :call LanguageClient#textDocument_hover()<CR>
+nnoremap <silent> <leader>gd :call LanguageClient#textDocument_definition()<CR>
+nnoremap <silent> <leader>lr :call LanguageClient#textDocument_rename()<CR>
 
 " FlyGrep
 nnoremap <leader>s/ :FlyGrep<cr>

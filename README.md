@@ -9,7 +9,6 @@ automatic install:
 
 * Git
 * Homebrew
-* FISH shell
 * Neovim
 * Tmux
 
@@ -17,5 +16,6 @@ automatic install:
 
 ```
 git clone https://github.com/keithschulze/dotfiles.git ~/.dotfiles
-fish bootstrap.fish
+cd ~/.dotfiles
+./bootstrap.sh
 ```

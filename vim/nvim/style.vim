@@ -2,6 +2,7 @@ Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'
 Plug 'Lokaltog/vim-monotone'
+Plug 'drewtempelmeyer/palenight.vim'
 
 syntax enable
 
@@ -22,13 +23,15 @@ if (!has("nvim"))
 endif
 
 "if theme supports true colour
-if (empty($TMUX))
-  if (has("termguicolors"))
-    set termguicolors
-  endif
+if (has("termguicolors"))
+  set termguicolors
 endif
 
 set background=dark
+
+" Srcery options
+let g:palenight_terminal_italics = 1
+autocmd VimEnter * colorscheme palenight
 
 " Nord options
 " let g:nord_italic = 1
@@ -41,7 +44,7 @@ set background=dark
 " autocmd VimEnter * highlight CursorLine ctermfg=black
 
 " vim-monotone
-autocmd VimEnter * colorscheme monotone
+" autocmd VimEnter * colorscheme monotone
 
 " let g:one_allow_italics = 1
 " autocmd VimEnter * colorscheme one

@@ -1,7 +1,4 @@
-#!/usr/local/bin/fish
-
-## Set universal variables
-set -U EDITOR 'nvim'
+#!/bin/bash
 
 ## Link files
 ln -s ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
