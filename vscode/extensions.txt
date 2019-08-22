@@ -5,6 +5,8 @@ arcticicestudio.nord-visual-studio-code
 deerawan.vscode-dash
 itryapitsin.Scala
 itryapitsin.ScalaSnippets
+James-Yu.latex-workshop
+jolaleye.horizon-theme-vscode
 justusadam.language-haskell
 lightbend.vscode-sbt-scala
 ms-python.python
@@ -15,6 +17,7 @@ PeterJausovec.vscode-docker
 Qwerp-Derp.vscode-coconut
 redhat.java
 redhat.vscode-yaml
+rust-lang.rust
 sallar.vscode-duotone-dark
 scala-lang.scala
 scalameta.metals

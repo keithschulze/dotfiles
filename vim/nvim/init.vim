@@ -63,7 +63,8 @@ let g:LanguageClient_serverCommands = {
     \ 'purescript': ['purescript-language-server', '--stdio'],
     \ 'elixir': ['~/Development/github/elixir-ls/release/language_server.sh'],
     \ 'reason': ['~/.bin/reason-rls'],
-    \ 'scala': ['/usr/local/bin/metals-vim']
+    \ 'scala': ['/usr/local/bin/metals-vim'],
+    \ 'python': ['pyls']
     \ }
 
 let g:LanguageClient_rootMarkers = {
@@ -84,8 +85,8 @@ source ~/.dotfiles/vim/nvim/statusline.vim
 source ~/.dotfiles/vim/nvim/style.vim
 source ~/.dotfiles/vim/nvim/keybindings.vim
 
-" source ~/.dotfiles/vim/nvim/plugins/airline.vim
-source ~/.dotfiles/vim/nvim/plugins/lightline.vim
+source ~/.dotfiles/vim/nvim/plugins/airline.vim
+" source ~/.dotfiles/vim/nvim/plugins/lightline.vim
 source ~/.dotfiles/vim/nvim/plugins/ctrlp.vim
 source ~/.dotfiles/vim/nvim/plugins/terminal.vim
 source ~/.dotfiles/vim/nvim/plugins/session.vim
