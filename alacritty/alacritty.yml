@@ -44,7 +44,7 @@ window:
   decorations: transparent
 
   # When true, alacritty starts maximized.
-  start_maximized: false
+  startup_mode: Maximized
 
 scrolling:
   # Maximum number of lines in the scrollback buffer.
@@ -86,7 +86,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux) monospace
     #   - (Windows) Consolas
-    #family: "IBM Plex Mono"
+    #family: "Hack"
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -97,7 +97,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: "IBM Plex Mono"
+    #family: "Hack"
 
     # The `style` can be specified to pick a specific face.
     #style: Bold
@@ -108,7 +108,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    #family: "IBM Plex Mono"
+    #family: "Hack"
 
     # The `style` can be specified to pick a specific face.
     #style: Italic
@@ -145,11 +145,12 @@ font:
   # effect.
   use_thin_strokes: true
 
-# Display the time it takes to redraw each frame.
-render_timer: false
+debug:
+  # Display the time it takes to redraw each frame.
+  render_timer: false
 
-# Keep the log file after quitting Alacritty.
-persistent_logging: false
+  # Keep the log file after quitting Alacritty.
+  persistent_logging: false
 
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
@@ -199,39 +200,70 @@ draw_bold_text_with_bright_colors: true
 #     cyan: '0x8FBCBB'
 #     white: '0xECEFF4'
 
-# Colors (nova): https://trevordmiller.com/projects/nova
+# Colors (One Dark)
 colors:
   # Default colors
   primary:
-    background: '0x3c4c55'
-    foreground: '0xc5d4dd'
-
-  # Colors the cursor will use if `custom_cursor_colors` is true
-  cursor:
-    text: '0x3c4c55'
-    cursor: '0x7fc1ca'
+    background: '0x282c34'
+    foreground: '0xabb2bf'
 
   # Normal colors
   normal:
-    black:   '0x3c4c55'
-    red:     '0xdf8c8c'
-    green:   '0xa8ce93'
-    yellow:  '0xdada93'
-    blue:    '0x83afe5'
-    magenta: '0x9a93e1'
-    cyan:    '0x7fc1ca'
-    white:   '0xc5d4dd'
+    # NOTE: Use '0x131613' for the `black` color if you'd like to see
+    # black text on the background.
+    black:   '0x282c34'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0xabb2bf'
 
   # Bright colors
   bright:
-    black:   '0x899ba6'
-    red:     '0xf2c38f'
-    green:   '0xa8ce93'
-    yellow:  '0xdada93'
-    blue:    '0x83afe5'
-    magenta: '0xd18ec2'
-    cyan:    '0x7fc1ca'
-    white:   '0xe6eef3'
+    black:   '0x5c6370'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0xffffff'
+
+# Colors (nova): https://trevordmiller.com/projects/nova
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x3c4c55'
+#     foreground: '0xc5d4dd'
+#
+#   # Colors the cursor will use if `custom_cursor_colors` is true
+#   cursor:
+#     text: '0x3c4c55'
+#     cursor: '0x7fc1ca'
+#
+#   # Normal colors
+#   normal:
+#     black:   '0x3c4c55'
+#     red:     '0xdf8c8c'
+#     green:   '0xa8ce93'
+#     yellow:  '0xdada93'
+#     blue:    '0x83afe5'
+#     magenta: '0x9a93e1'
+#     cyan:    '0x7fc1ca'
+#     white:   '0xc5d4dd'
+#
+#   # Bright colors
+#   bright:
+#     black:   '0x899ba6'
+#     red:     '0xf2c38f'
+#     green:   '0xa8ce93'
+#     yellow:  '0xdada93'
+#     blue:    '0x83afe5'
+#     magenta: '0xd18ec2'
+#     cyan:    '0x7fc1ca'
+#     white:   '0xe6eef3'
 
   # Dim colors
   #
