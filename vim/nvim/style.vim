@@ -1,8 +1,8 @@
 Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'
-Plug 'Lokaltog/vim-monotone'
 Plug 'drewtempelmeyer/palenight.vim'
+Plug 'morhetz/gruvbox'
 
 syntax enable
 
@@ -29,9 +29,9 @@ endif
 
 set background=dark
 
-" Srcery options
-let g:palenight_terminal_italics = 1
-autocmd VimEnter * colorscheme palenight
+" Palenight options
+" let g:palenight_terminal_italics = 1
+" autocmd VimEnter * colorscheme palenight
 
 " Nord options
 " let g:nord_italic = 1
@@ -43,8 +43,10 @@ autocmd VimEnter * colorscheme palenight
 " autocmd VimEnter * colorscheme nova
 " autocmd VimEnter * highlight CursorLine ctermfg=black
 
-" vim-monotone
-" autocmd VimEnter * colorscheme monotone
+" Gruvbox
+let g:gruvbox_italic=1
+autocmd VimEnter * colorscheme gruvbox
+autocmd VimEnter * AirlineRefresh
 
 " let g:one_allow_italics = 1
 " autocmd VimEnter * colorscheme one
