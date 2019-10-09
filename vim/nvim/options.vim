@@ -55,3 +55,6 @@ set hlsearch            " highlight search results
 set ignorecase          " ignore case when searching
 set smartcase           " ignore case if search string is all lower case, case-sensitve otherwise
 
+if exists('&inccommand')
+  set inccommand=split
+endif
