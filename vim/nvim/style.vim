@@ -2,7 +2,8 @@ Plug 'trevordmiller/nova-vim'
 Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'
 Plug 'drewtempelmeyer/palenight.vim'
-Plug 'morhetz/gruvbox'
+Plug 'gruvbox-community/gruvbox'
+Plug 'chriskempson/base16-vim'
 
 syntax enable
 
@@ -44,10 +45,12 @@ set background=dark
 " autocmd VimEnter * highlight CursorLine ctermfg=black
 
 " Gruvbox
-let g:gruvbox_italic=1
-autocmd VimEnter * colorscheme gruvbox
-autocmd VimEnter * AirlineRefresh
+" let g:gruvbox_italic=1
+" autocmd VimEnter * colorscheme gruvbox
+" autocmd VimEnter * AirlineRefresh
 
+autocmd VimEnter * colorscheme base16-tomorrow-night
+autocmd VimEnter * AirlineRefresh
 " let g:one_allow_italics = 1
 " autocmd VimEnter * colorscheme one
 " autocmd VimEnter * AirlineRefresh
