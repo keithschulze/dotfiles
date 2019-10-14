@@ -49,6 +49,7 @@ nmap ga <Plug>(EasyAlign)
 " imap jk <esc>
 " imap kj <esc>
 imap fd <esc>
+imap jk <esc>
 vno v <esc>
 
 " remap ESC to exit insert mode in terminal
@@ -67,8 +68,8 @@ nnoremap <leader>_c :PlugClean<CR>
 nnoremap <silent> <leader>pt :NERDTreeToggle<CR>   " open a horizontal split and switch to it (,h)
 nnoremap <silent> <leader>pF :NERDTreeFind<CR>   " open a horizontal split and switch to it (,h)
 nnoremap <leader>pf :GitFiles<CR>
-nnoremap <leader>p/ :Ag<CR>
 nnoremap <leader>pr :History<CR>
+nnoremap <leader>s/ :Ag<CR>
 
 " window
 nnoremap <leader>wv <C-w>v<C-w>l   " split vertically
@@ -103,8 +104,5 @@ nnoremap <leader>lc :call LanguageClient#textDocument_completion()<CR>
 nnoremap <leader>lh :call LanguageClient#textDocument_hover()<CR>
 nnoremap <leader>ls :call LanguageClient_textDocument_documentSymbol()<CR>
 nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
-
-" FlyGrep
-nnoremap <leader>s/ :FlyGrep<cr>
 
 " mode keybindings are inside each langs file
