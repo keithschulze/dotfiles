@@ -19,8 +19,6 @@ Plug 'junegunn/vim-peekaboo'
 Plug 'junegunn/vim-easy-align'
 Plug 'junegunn/gv.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'powerline/powerline'
 
@@ -66,6 +64,7 @@ source ~/.dotfiles/vim/nvim/keybindings.vim
 
 source ~/.dotfiles/vim/nvim/plugins/airline.vim
 " source ~/.dotfiles/vim/nvim/plugins/lightline.vim
+source ~/.dotfiles/vim/nvim/plugins/coc.vim
 source ~/.dotfiles/vim/nvim/plugins/ctrlp.vim
 source ~/.dotfiles/vim/nvim/plugins/echodoc.vim
 source ~/.dotfiles/vim/nvim/plugins/terminal.vim
