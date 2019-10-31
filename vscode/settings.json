@@ -10,6 +10,15 @@
             "after": [
                 "<Esc>"
             ]
+        },
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -60,6 +69,20 @@
             "after": [
                 "<C-w>",
                 "v"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w",
+                "h"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.splitEditorDown",
+                    "args": []
+                }
             ]
         },
         {
@@ -135,9 +158,27 @@
             ]
         }
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
     "vim.leader": "<space>",
-    "editor.fontFamily": "'IBM Plex Mono', Monoid, Menlo, 'Courier New', monospace",
-    "editor.fontSize": 13,
+    "editor.fontFamily": "Iosevka, Monoid, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 15,
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.minimap.enabled": false,
     "editor.rulers": [
@@ -145,16 +186,15 @@
     ],
     "vim.enableNeovim": true,
     "vim.textwidth": 80,
-    "vim.neovimPath": "/Users/keithschulze/.nix-profile/bin/nvim",
-    "vim.substituteGlobalFlag": true,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.gdefault": true,
     "vim.sneak": true,
     "vim.useSystemClipboard": true,
     "vim.overrideCopy": true,
-    "workbench.colorTheme": "Horizon",
+    "workbench.colorTheme": "Nord",
     "editor.renderWhitespace": "none",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "files.trimTrailingWhitespace": true,
-    "python.venvPath": "/usr/local/miniconda3/envs",
     "languageServerHaskell.hlintOn": true,
     "window.restoreWindows": "none",
     "files.associations": {
@@ -182,5 +222,9 @@
     "breadcrumbs.enabled": true,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "languageServerHaskell.useCustomHieWrapper": true,
+    "languageServerHaskell.useCustomHieWrapperPath": "hie",
+    "workbench.activityBar.visible": false,
+    "workbench.editor.showTabs": false
 }
