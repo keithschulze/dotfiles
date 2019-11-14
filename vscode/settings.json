@@ -103,7 +103,7 @@
             "before": [
                 "leader",
                 "b",
-                "d"
+                "c"
             ],
             "after": [],
             "commands": [
@@ -214,9 +214,9 @@
     },
     "go.useLanguageServer": true,
     "editor.renderControlCharacters": false,
-    "terminal.integrated.fontSize": 13,
-    "markdown.preview.fontSize": 13,
-    "vim.easymotionMarkerFontSize": "13",
+    "terminal.integrated.fontSize": 15,
+    "markdown.preview.fontSize": 15,
+    "vim.easymotionMarkerFontSize": "15",
     "rust-client.updateOnStartup": true,
     "editor.formatOnSave": true,
     "breadcrumbs.enabled": true,
@@ -225,6 +225,6 @@
     "python.jediEnabled": false,
     "languageServerHaskell.useCustomHieWrapper": true,
     "languageServerHaskell.useCustomHieWrapperPath": "hie",
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.editor.showTabs": false
 }

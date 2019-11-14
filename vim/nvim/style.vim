@@ -35,10 +35,10 @@ set background=dark
 " autocmd VimEnter * colorscheme palenight
 
 " Nord options
-" let g:nord_italic = 1
-" let g:nord_italic_comments = 1
-" let g:nord_underline = 1
-" autocmd VimEnter * colorscheme nord
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
+autocmd VimEnter * colorscheme nord
 
 " Nova theme
 " autocmd VimEnter * colorscheme nova
@@ -49,8 +49,10 @@ set background=dark
 " autocmd VimEnter * colorscheme gruvbox
 " autocmd VimEnter * AirlineRefresh
 
-autocmd VimEnter * colorscheme base16-tomorrow-night
-autocmd VimEnter * AirlineRefresh
+" Base16 tomorrow-night
+" autocmd VimEnter * colorscheme base16-tomorrow-night
+" autocmd VimEnter * AirlineRefresh
+
 " let g:one_allow_italics = 1
 " autocmd VimEnter * colorscheme one
 " autocmd VimEnter * AirlineRefresh

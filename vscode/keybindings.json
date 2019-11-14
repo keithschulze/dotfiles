@@ -1,0 +1,7 @@
+[
+    {
+        "key": "o",
+        "command": "list.select",
+        "when": "listFocus && !inputFocus"
+    }
+]
