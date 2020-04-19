@@ -69,7 +69,7 @@ nnoremap <silent> <leader>pt :NERDTreeToggle<CR>   " open a horizontal split and
 nnoremap <silent> <leader>pF :NERDTreeFind<CR>   " open a horizontal split and switch to it (,h)
 nnoremap <leader>pf :GitFiles<CR>
 nnoremap <leader>pr :History<CR>
-nnoremap <leader>s/ :Ag<CR>
+nnoremap <leader>s/ :Rg<CR>
 
 " window
 nnoremap <leader>wv <C-w>v<C-w>l   " split vertically

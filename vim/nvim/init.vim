@@ -89,3 +89,5 @@ source ~/.dotfiles/vim/nvim/lang/reasonml.vim
 set exrc
 set secure
 call plug#end()
+
+colorscheme nord

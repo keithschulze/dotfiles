@@ -1,5 +1,5 @@
 Plug 'arcticicestudio/nord-vim'
-Plug 'ayu-theme/ayu-vim'
+" Plug 'ayu-theme/ayu-vim'
 
 syntax enable
 
@@ -27,13 +27,19 @@ endif
 set background=dark
 
 " Nord options
-" let g:nord_italic = 1
-" let g:nord_italic_comments = 1
-" let g:nord_underline = 1
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
+
 " autocmd VimEnter * colorscheme nord
+" colorscheme nord
 
 
 " Ayu options
-let ayucolor="mirage"
-autocmd VimEnter * colorscheme ayu
+" let ayucolor="mirage"
+" autocmd VimEnter * colorscheme ayu
 
+" highlight
+autocmd ColorScheme *
+  \ highlight SpellBad
+  \   guifg=NONE
