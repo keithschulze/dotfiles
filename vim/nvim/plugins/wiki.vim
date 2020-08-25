@@ -2,8 +2,8 @@ Plug 'vimwiki/vimwiki'
 Plug 'michal-h21/vim-zettel'
 Plug 'https://github.com/alok/notational-fzf-vim'
 
-let g:vimwiki_list = [{'path': '~/Documents/notes/', 'syntax': 'markdown', 'ext': '.md', 'auto_tags': 1},
-                     \{'path': '~/Documents/wiki/', 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/Documents/notes/', 'syntax': 'markdown', 'ext': '.md', 'auto_tags': 1, 'auto_diary_index': 1},
+                     \{'path': '~/Documents/wiki/', 'syntax': 'markdown', 'ext': '.md', 'auto_tags': 1}]
 
 let g:nv_search_paths = ['~/Documents/notes/']
 
